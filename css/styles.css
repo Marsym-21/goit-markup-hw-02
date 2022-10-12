@@ -1,3 +1,14 @@
-.headder{
+/*header*/
+.header{
     background-color: aqua;
+    margin: 0;
+}
+
+
+
+
+
+/*Section banner*/
+.banner{
+    background-color: #2F303A;
 }
