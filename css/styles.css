@@ -30,30 +30,71 @@ body h2, body h3{
     background-color: #FFFFFF;
     width: 1600px;
     height: 80px;
-    margin: 0;
+    border-bottom: 1px solid #ECECEC;
 }
-.link-item:hover, .link-item:focus{
+
+.header-list .link-item:hover, .header-list .link-item:focus, .link-contacts:hover, .link-contacts:focus{
     color:var(--effects-color) ;
 }
 .page-header a, .footer a{text-decoration: none;}
 
 /*site nav*/
 
-.page-header li
-{display: inline;}
 .logo{
-    color:var(--title-color);
+color:var(--title-color);
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+width: 145px;
+height: 31px;
+margin: 24px 1240px 25px 215px;
+position: absolute;
 }
 .logo .web {color:var(--effects-color);}
 
 ul{list-style: none;}
+
 .link-item{
     color: var(--title-color);
+    margin-right: 50px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
-.site-nav .link-item.current{color: var(--effects-color);}
+.site-nav .link-item.current{color: var(--effects-color);
+}
 
-.header-contacts a{
+.link-contacts{
     color:var(--primary-color) ;
+    margin-right: 50px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.header-contacts, .header-list{
+    display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+ position: absolute;
+}
+.header-list{
+ margin: 32px 866px 32px 453px ;
+ padding: 0;
+}
+.header-contacts{
+    margin: 32px 165px 32px 1078px ;
+    width: 357px;
+    padding: 0;
 }
 
 /*Section banner*/
@@ -62,7 +103,7 @@ ul{list-style: none;}
     width: 1600px;
     height: 600px;
 }
-.banner-title{color: #FFFFFF;
+.banner-title{color: var(--primary-title-color);
 font-family: Roboto;
 font-style: normal;
 font-weight: 900;
@@ -74,7 +115,7 @@ text-transform: uppercase;
 width: 696px;
 height: 120px;
 position: absolute;
-margin: 197px 452px 283px 452px;}
+margin: 200px 452px 280px 452px;}
 
 button.banner-btn{
 
@@ -84,8 +125,15 @@ button.banner-btn{
     text-transform: none;
     width: 216px;
     height: 50px;
-    margin: 347px 692px 203px 692px;
+    margin: 350px 692px 200px 692px;
     cursor: pointer;
+    border-radius: 4px ;
+    border-top-left-radius: 4 px;
+    border-top-right-radius: 4 px;
+    border-bottom-right-radius: 4 px;
+    border-bottom-left-radius: 4 px;
+    border: 1px solid var(--button-color);
+    padding: 10px 32px;
 }
 
 /*Section speciality*/
@@ -119,11 +167,18 @@ width: 1600px;
 
 
 /*Portfolio*/
-.main-portfolio{
-    width: 1600px;
+.body-portfolio{
+ width: 1600px;
  height: 1880px;
+ background-color: #FFFFFF;
 }
-.portfolio{background-color: #F5F5F5;}
+.main-portfolio, .section-portfolio{
+    background-color: #FFFFFF;
+    width: 1600px;
+ height: 1548px;
+
+}
+.portfolio{background-color: #FFFFFF;}
 
 button.item{background-color:#F5F4FA;
     color: #212121;
@@ -140,6 +195,12 @@ button.item{background-color:#F5F4FA;
    height: 38px;
    margin-right: 8px;
    padding: 6px 22px;
+   border-radius: 4px ;
+    border-top-left-radius: 4 px;
+    border-top-right-radius: 4 px;
+    border-bottom-right-radius: 4 px;
+    border-bottom-left-radius: 4 px;
+   
 }
 button.item.all{
     padding: 6px 25px;
@@ -148,10 +209,10 @@ button.item.all{
 .portfolio-menu{
  display: inline-flex;
  flex-direction: row;
- justify-content: center;
- margin: 94px 504px 0px 512px ;
- padding: 0;
- 
+margin: 94px 504px 20px 512px;
+width: 585px;
+padding: 0px;
+
 }
 
 
@@ -162,9 +223,30 @@ button.item:hover, button.item:focus{
 .image-menu{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 185px 94px 215px;
-    padding: 0;
-    }
+    margin: 0px 185px 94px 215px;
+   padding: 0px;
+   width: px;
+   height: 1302px;
+}
+
 .image-menu > .item{
  margin-right: 30px;
 margin-top: 30px;}
+
+.image-menu .title{
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+}
+
+.image-menu .text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+}
