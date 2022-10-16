@@ -189,6 +189,9 @@ margin-bottom: 10px;
 .activity-title{
 margin-top: 0px;
  margin-bottom: 50px;
+ width: 367px;
+ height: 42px;
+ padding-left: 402px;
  
 }
 .activity-title, .team-title{
@@ -222,7 +225,10 @@ flex-direction: row;
 }
 .team-title{
     padding-top: 94px;
+    padding-left: 668px;
     margin: 0px;
+    width: 265px; ;
+    height: 42px;
 }
 .team-list{
     display: inline-flex;
