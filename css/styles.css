@@ -27,17 +27,17 @@ color: var(--primary-color);
 /*Колір секції з командою:#F5F4FA*/
 
 /*header*/
-.page-header{
+.page-head{
     background-color: #FFFFFF;
     width: 1600px;
     height: 80px;
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-list .link-item:hover, .header-list .link-item:focus, .link-contacts:hover, .link-contacts:focus{
+.head.list .link-item:hover, .head.list .link-item:focus, .link-contacts:hover, .link-contacts:focus{
     color:var(--effects-color) ;
 }
-.page-header a, .footer a{text-decoration: none;}
+.page-head a, .footer a{text-decoration: none;}
 
 /*site nav*/
 
@@ -60,8 +60,7 @@ margin: 0px auto;
 
 }
 .logo .web {color:var(--effects-color);}
-
-ul{list-style: none;}
+.list{list-style: none;}
 
 .link-item{
     color: var(--title-color);
@@ -81,17 +80,17 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.header-contacts, .header-list{
+.head.contacts.list, .head.list{
     display: inline-flex;
   flex-direction: row;
   justify-content: center;
  position: absolute;
 }
-.header-list{
+.head.list{
  margin: 32px 866px 32px 453px ;
  padding: 0;
 }
-.header-contacts{
+.head.contacts{
     margin: 32px 165px 32px 1078px ;
     width: 357px;
     padding: 0;
@@ -115,7 +114,7 @@ height: 120px;
 position: absolute;
 margin: 200px 452px 280px 452px;}
 
-button.banner-btn{
+.banner-btn{
     background-color:var(--button-color);
     color: var(--primary-title-color);
     text-align: center;
@@ -141,7 +140,7 @@ button.banner-btn{
     height: 98px;
     margin: 90px 185px 94px 215px;
 }
-.speciality-list{
+.speciality.list{
     display: inline-flex;
     flex-direction: row;
     padding: 0px;
@@ -194,7 +193,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.activity-list{
+.activity.list{
 display: inline-flex;
 flex-direction: row;
     padding: 0px;
@@ -219,7 +218,7 @@ flex-direction: row;
     width: 265px; ;
     height: 42px;
 }
-.team-list{
+.team .list{
     display: inline-flex;
  flex-direction: row;
  width: 1200px;
@@ -272,7 +271,7 @@ margin: 0px auto;
 }
 .logo-footer .web {color:var(--effects-color);}
 
-.address-list{
+.address.list{
 position: absolute;
 width: 231px;
 height: 81px;
@@ -285,13 +284,13 @@ padding: 0;
 
 .item.mail, .item.tel{color:var(--footer-color);}
 
-.address-list .item{
+.address.list .item{
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;}
-.address-list li{
+.address.list li{
     margin-bottom: 9px;
 }
 
@@ -341,7 +340,7 @@ button.item.all{
     padding: 6px 25px;
 }
 
-.portfolio-menu{
+.portfolio-menu.list{
  display: inline-flex;
  flex-direction: row;
 margin: 94px 504px 20px 512px;
@@ -349,13 +348,13 @@ width: 585px;
 padding: 0px;
 }
 
-button.item:hover, button.item:focus{
+.portfolio-menu .item:hover, .portfolio-menu .item:focus{
     background-color: var(--effects-color);
     color:#FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.image-menu{
+.image-menu.list{
     display: flex;
     flex-wrap: wrap;
     flex-basis:auto;
@@ -365,7 +364,7 @@ button.item:hover, button.item:focus{
    max-height: 1302px;
 }
 
-.image-menu > .item{
+.image-menu.list > .item{
 max-width: 368px;
 max-height: 402px;
  margin-right: auto;
@@ -383,7 +382,7 @@ margin-bottom: 4px;
 padding-left: 24px;
 }
 
-.image-menu .text{
+.image-menu.list .text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
