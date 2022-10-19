@@ -99,15 +99,15 @@ margin-right: 50px;
  padding: 0;
 }
 .head.contacts{
-    margin: 32px 165px 32px 1078px ;
+
     width: 357px;
+    margin: 32px 165px 32px 1078px ;
     padding: 0;
 }
 
 /*Section banner*/
 .banner{
     background-color: #2F303A;
-
     width: 1600px;
     height: 600px;
 }
