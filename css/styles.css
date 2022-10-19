@@ -83,8 +83,6 @@ letter-spacing: 0.02em;
 .head.contacts.list, .head.list{
     display: inline-flex;
   flex-direction: row;
-  justify-content: center;
- position: absolute;
 }
 .head.list{
  margin: 32px 866px 32px 453px ;
@@ -235,7 +233,6 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .team-item > .text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
